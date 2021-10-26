@@ -1,5 +1,5 @@
-# BirdBox-UI
-BirdBox Navigation Drawer UI
+Aengmu-UI
+Aengmu Navigation Drawer UI
 
 # 실행방법
 ```
