@@ -1,0 +1,30 @@
+@import url(https://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css);
+@font-face {
+  font-family: "LGSmHaR";
+  src: url("../assets/fonts/LGSmHaR.eot");
+  src: url("../assets/fonts/LGSmHaR.eot?") format("eot"),
+    url("../assets/fonts/LGSmHaR.woff") format("woff"),
+    url("../assets/fonts/LGSmHaR.ttf") format("truetype");
+}
+
+* {
+  font-family: 'LGSmHaR', sans-serif;
+}
+
+html,
+body {
+  /* font-family: "Nanum Barun Gothic"; */
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#inspire > div.application--wrap > div > aside {
+  z-index: 3;
+}
+
+body > div > div:nth-child(2) > div > div.sc-launcher,
+body > div > div:nth-child(2) > div > div.sc-launcher > img,
+body > div > div:nth-child(2) > div > div.sc-chat-window.opened {
+  z-index: 3;
+  left: 25px;
+}
