@@ -69,7 +69,7 @@ new Vue({
   components: { App },
   template: '<App/>',
   data: {
-    themeColor: '#1D2939',
+    themeColor: '#343434',
     userEmail: 'admin@yopmail.com',
     userPassword: '123456',
     // endpoint: "https://birdbox.cloudnativelab.tech/",
